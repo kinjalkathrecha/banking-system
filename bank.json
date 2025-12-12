@@ -1,0 +1,129 @@
+{
+    "bank_total": 92309.89,
+    "accounts": {
+        "1001": {
+            "name": "yashvi",
+            "password": "Yashvi@123",
+            "balance": 10030.0,
+            "loan": {
+                "amount": 0,
+                "months": 0,
+                "emi": 0,
+                "remaining": 0
+            },
+            "transactions": [
+                "2025-12-12/12/25 15:16:43 ---> Received \u20b9100.0 from 1006",
+                "2025-12-12/12/25 16:16:51 ---> Received \u20b9100.0 from 1007",
+                "2025-12-12/12/25 16:54:42 ---> Paid EMI: \u20b91000.0",
+                "2025-12-12/12/25 16:54:55 ---> Paid EMI: \u20b970.0"
+            ]
+        },
+        "1002": {
+            "name": "kinjal",
+            "password": "Kinjal@123",
+            "balance": 10000.6,
+            "loan": {
+                "amount": 0,
+                "months": 0,
+                "emi": 0,
+                "remaining": 0
+            },
+            "transactions": [
+                "2025-12-12 11:46:13 ---> Received \u20b9100000.0 from 8160953030",
+                "2025-12-12 11:46:54 ---> Received \u20b9100000.0 from 8160953030",
+                "2025-12-12 11:53:35 ---> Received \u20b9100000.0 from 8160953030",
+                "Received \u20b9100000.0 from 8160953030",
+                "Received \u20b9100000.0 from 1004"
+            ]
+        },
+        "1003": {
+            "name": "shital",
+            "password": "Shital@123",
+            "balance": 10000.0,
+            "loan": {
+                "amount": 0,
+                "months": 0,
+                "emi": 0,
+                "remaining": 0
+            },
+            "transactions": [
+                "2025-12-12 11:45:26 ---> Deposited \u20b9100000.0",
+                "2025-12-12 11:45:35 ---> Withdrew \u20b9100000.0",
+                "2025-12-12 11:46:13 ---> Transferred \u20b9100000.0 to 123456789",
+                "2025-12-12 11:46:54 ---> Transferred \u20b9100000.0 to 123456789",
+                "2025-12-12 11:52:11 ---> Loan taken: \u20b9100.0",
+                "2025-12-12 11:52:11 ---> Loan interest: \u20b97.000000000000001",
+                "2025-12-12 11:52:11 ---> EMI per month: \u20b953.5",
+                "2025-12-12 11:52:19 ---> Paid EMI: \u20b953.5",
+                "2025-12-12 11:52:27 ---> Paid EMI: \u20b953.5",
+                "2025-12-12/12/25 12:02:59 ---> Deposited \u20b9100000.0",
+                "2025-12-12/12/25 12:03:05 ---> Withdrew \u20b9100000.0",
+                "2025-12-12/12/25 12:04:36 ---> Loan taken: \u20b9100.0",
+                "2025-12-12/12/25 12:04:36 ---> Loan interest: \u20b97.000000000000001",
+                "2025-12-12/12/25 12:04:36 ---> EMI per month: \u20b953.5",
+                "2025-12-12/12/25 12:04:49 ---> Paid EMI: \u20b953.5",
+                "2025-12-12/12/25 12:04:57 ---> Paid EMI: \u20b953.5"
+            ]
+        },
+        "1004": {
+            "name": "manoj",
+            "email_id": "manoj@gmail.com",
+            "password": "Manoj@123",
+            "aadhaar_no": "1234",
+            "pan_no": "1234",
+            "balance": 10000,
+            "loan": {
+                "amount": 0,
+                "months": 0,
+                "emi": 0,
+                "remaining": 0
+            },
+            "transactions": []
+        },
+        "1005": {
+            "name": "abc",
+            "email_id": "abc@gmail.com",
+            "password": "Abc@1233",
+            "aadhaar_no": "123412341234",
+            "pan_no": "asbcd2819s",
+            "balance": 10000,
+            "loan": {
+                "amount": 0,
+                "months": 0,
+                "emi": 0,
+                "remaining": 0
+            },
+            "transactions": []
+        },
+        "1006": {
+            "name": "abc",
+            "email_id": "abc@gmail.com",
+            "password": "Abc@1234",
+            "aadhaar_no": "123456789123",
+            "pan_no": "djsja3456g",
+            "balance": 21000.0,
+            "loan": {
+                "amount": 10000.0,
+                "months": 2,
+                "emi": 5350.0,
+                "remaining": 10700.0
+            },
+            "transactions": [
+                "2025-12-12/12/25 14:33:18 ---> Deposited \u20b912.0",
+                "2025-12-12/12/25 14:33:43 ---> Deposited \u20b933.99",
+                "2025-12-12/12/25 14:34:27 ---> Withdrew \u20b945399.99",
+                "2025-12-12/12/25 14:38:37 ---> Loan taken: \u20b91e+84",
+                "2025-12-12/12/25 14:38:37 ---> Loan interest: \u20b97.000000000000001e+82",
+                "2025-12-12/12/25 14:38:37 ---> EMI per month: \u20b91.07e+84",
+                "2025-12-12/12/25 15:00:11 ---> Deposited \u20b91e+18",
+                "2025-12-12/12/25 15:00:35 ---> Deposited \u20b912.0",
+                "2025-12-12/12/25 15:00:40 ---> Deposited \u20b912.0",
+                "2025-12-12/12/25 15:00:48 ---> Deposited \u20b91.2e+138",
+                "2025-12-12/12/25 15:00:53 ---> Paid EMI: \u20b91.07e+84",
+                "2025-12-12/12/25 15:48:21 ---> Withdrew \u20b91e+93",
+                "2025-12-12/12/25 15:48:36 ---> Withdrew \u20b91e+60",
+                "2025-12-12/12/25 15:49:15 ---> Withdrew \u20b91e+45"
+            ]
+        }
+    }
+}
