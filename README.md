@@ -1,7 +1,7 @@
 # banking-system
 The Banking System Project is a Python-based console application that simulates the core functionalities of a real-world banking system. It allows users to create accounts, log in securely, manage their money, and perform essential banking operations.
 
-✨ Key Features
+# ✨ Key Features
 1. Account Management
 
 -Open a new bank account.
@@ -26,10 +26,8 @@ The Banking System Project is a Python-based console application that simulates 
 
 
 
-🛠️ Technology Used
+# 🛠️ Technology Used
 
-Python 3
+-Python 3
 
-Error-handling and input validation
-
-Functions & modular programming approach
+-json as database
