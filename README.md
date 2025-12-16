@@ -1,33 +1,73 @@
-# banking-system
-The Banking System Project is a Python-based console application that simulates the core functionalities of a real-world banking system. It allows users to create accounts, log in securely, manage their money, and perform essential banking operations.
+# 🏦 Banking System (Python + JSON)
 
-# ✨ Key Features
-1. Account Management
+A **console-based Banking Management System** built using **Python**, with a **JSON file as a database**.
+This project simulates real-world banking operations such as account creation, login, transactions, loan processing, EMI payments, and security features.
 
--Open a new bank account.
+---
 
--Secure login using account number and password.
+## 🚀 Features
 
--Logout functionality.
+### 👤 Account Management
 
--Close/delete an existing bank account.
+* Create new bank account
+* Secure login & logout
+* View user details
+* Close account (only if balance & loan are cleared)
 
-2. Banking Operations
+### 🔐 Security
 
--Check current balance.
+* Strong password validation
 
--Deposit money into the account.
+  * 8–12 characters
+  * Uppercase, lowercase, digit, special character
+* Transaction PIN (6-digit)
 
--Withdraw money with balance validation.
+  * Generate PIN
+  * Update PIN (cannot reuse old PIN)
+* Password update (cannot reuse old password)
 
--Transfer funds between accounts.
+### 💰 Banking Operations
 
--Keep a complete record of all transactions (deposits, withdrawals, transfers).
+* Check balance
+* Deposit money
+* Withdraw money
+* Transfer money to another account
+* View complete transaction history
 
+### 🏦 Loan Management
 
+* Apply for loan
+* Loan approval **after 24 hours** (auto-processing)
+* Loan rejection **after 48 hours** if conditions fail
+* 7% interest rate
+* EMI calculation & payment
+* Bank maintains **20% reserve rule**
 
-# 🛠️ Technology Used
+### 📊 Bank Logic
 
--Python 3
+* Tracks total bank money
+* Updates bank balance on loan approval & EMI payment
 
--json as database
+---
+
+## 🛠️ Technologies Used
+
+* **Python 3**
+* **JSON** (as database)
+* `datetime` module
+* `re` (Regular Expressions)
+
+---
+
+## 👨‍💻 Author
+
+**Kinjal Kathrecha**
+Python Developer | Backend Enthusiast
+
+---
+
+## ⭐ Note
+
+This project is built for **learning purposes** and demonstrates real-world banking logic without external databases.
+
+If you like this project, feel free to ⭐ star the repository!
